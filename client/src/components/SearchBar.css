@@ -1,0 +1,12 @@
+.search-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 250px;
+}
+
+.add-button {
+}
