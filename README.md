@@ -1,6 +1,6 @@
 # 📊 Stock Viewer
 
-A fullstack stock portfolio management web app built with React (Ant Design, MobX) and NestJS + MongoDB.
+A fullstack stock portfolio management web app built with React Ant Design and NestJS + MongoDB.
 
 Users can:
 - 🔍 Search for stocks across all exchanges
