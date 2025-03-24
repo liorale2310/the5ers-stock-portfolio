@@ -32,7 +32,7 @@ Users can:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/stock-viewer.git
+git clone https://github.com/liorale/stock-viewer.git
 cd stock-viewer
 ```
 
@@ -43,12 +43,6 @@ cd stock-viewer
 ```bash
 cd server
 npm install
-```
-
-#### Create a `.env` file inside `server/`:
-
-```env
-FMP_API_KEY=your_fmp_api_key_here
 ```
 
 #### Run MongoDB locally (with Docker):
@@ -72,13 +66,6 @@ By default, the server will run at [http://localhost:4000](http://localhost:4000
 ```bash
 cd client
 npm install
-```
-
-#### Create a `.env` file inside `client/`:
-
-```env
-REACT_APP_API_URL=http://localhost:4000
-REACT_APP_FMP_API_KEY=your_fmp_api_key_here
 ```
 
 #### Start the React app:
@@ -124,7 +111,7 @@ server/
 ## 📈 API Reference
 
 Using [Financial Modeling Prep API](https://site.financialmodelingprep.com/developer/docs/)  
-Create a free account to get your API key.  
+I created a free account to get my API key.  
 This app uses:
 - `/search` for stock symbol autocomplete
 - `/quote/{symbol}` to fetch stock details
